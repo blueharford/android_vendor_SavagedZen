@@ -45,21 +45,21 @@ PRODUCT_COPY_FILES += \
 
 # Copy over the BASH for VDD profiles to the device
 PRODUCT_COPY_FILES += \
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/800SZ.sh:system/etc/vdd_profiles/800SZ.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/825SZ.sh:system/etc/vdd_profiles/825SZ.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/850SZ.sh:system/etc/vdd_profiles/850SZ.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/875SZ.sh:system/etc/vdd_profiles/875SZ.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/900SZ.sh:system/etc/vdd_profiles/900SZ.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/925SZ.sh:system/etc/vdd_profiles/925SZ.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/950SZ.sh:system/etc/vdd_profiles/950SZ.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/975SZ.sh:system/etc/vdd_profiles/975SZ.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/800SVS.sh:system/etc/vdd_profiles/800SVS.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/825SVS.sh:system/etc/vdd_profiles/825SVS.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/850SVS.sh:system/etc/vdd_profiles/850SVS.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/875SVS.sh:system/etc/vdd_profiles/875SVS.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/900SVS.sh:system/etc/vdd_profiles/900SVS.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/925SVS.sh:system/etc/vdd_profiles/925SVS.sh /
-      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/950SVS.sh:system/etc/vdd_profiles/950SVS.sh /
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/800SZ.sh:system/etc/vdd_profiles/800SZ.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/825SZ.sh:system/etc/vdd_profiles/825SZ.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/850SZ.sh:system/etc/vdd_profiles/850SZ.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/875SZ.sh:system/etc/vdd_profiles/875SZ.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/900SZ.sh:system/etc/vdd_profiles/900SZ.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/925SZ.sh:system/etc/vdd_profiles/925SZ.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/950SZ.sh:system/etc/vdd_profiles/950SZ.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/975SZ.sh:system/etc/vdd_profiles/975SZ.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/800SVS.sh:system/etc/vdd_profiles/800SVS.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/825SVS.sh:system/etc/vdd_profiles/825SVS.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/850SVS.sh:system/etc/vdd_profiles/850SVS.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/875SVS.sh:system/etc/vdd_profiles/875SVS.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/900SVS.sh:system/etc/vdd_profiles/900SVS.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/925SVS.sh:system/etc/vdd_profiles/925SVS.sh \
+      vendor/savagedzen/prebuilt/common/etc/vdd_profiles/950SVS.sh:system/etc/vdd_profiles/950SVS.sh \
       vendor/savagedzen/prebuilt/common/etc/vdd_profiles/975SVS.sh:system/etc/vdd_profiles/975SVS.sh
 
 
