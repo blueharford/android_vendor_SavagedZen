@@ -1,6 +1,6 @@
-# Generic Evervolv product
-PRODUCT_NAME := evervolv
-PRODUCT_BRAND := evervolv
+# Generic SavagedZen product
+PRODUCT_NAME := savagedzen
+PRODUCT_BRAND := savagedzen
 PRODUCT_DEVICE := generic
 
 
@@ -26,50 +26,52 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false
 
-# Evervolv specific product packages
+# SavagedZen specific product packages
 PRODUCT_PACKAGES += \
-    EVParts \
-    EVWallpapers \
-    FileManager 
+    SZParts \
+    SZWallpapers \
+    FileManager \
+    Launcher2 \
+    Terminal
 
-# Extra tools in Evervolv
+# Extra tools in SavagedZen
 PRODUCT_PACKAGES += \
     openvpn
 
 
 
-# Common Evervolv overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/evervolv/overlay/common
+# Common SavagedZen overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/savagedzen/overlay/common
 
 # Bring in some audio files
 #include frameworks/base/data/sounds/AudioPackage4.mk
 #include frameworks/base/data/sounds/AudioPackage5.mk
 
 PRODUCT_COPY_FILES += \
-    vendor/evervolv/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf \
-    vendor/evervolv/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
-    vendor/evervolv/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
-    vendor/evervolv/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
-    vendor/evervolv/prebuilt/common/etc/profile:system/etc/profile \
-    vendor/evervolv/prebuilt/common/etc/init.local.rc:system/etc/init.local.rc \
-    vendor/evervolv/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
-    vendor/evervolv/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
-    vendor/evervolv/prebuilt/common/etc/init.d/04modules:system/etc/init.d/04modules \
-    vendor/evervolv/prebuilt/common/etc/init.d/20userinit:system/etc/init.d/20userinit \
-    vendor/evervolv/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
-    vendor/evervolv/prebuilt/common/bin/compcache:system/bin/compcache \
-    vendor/evervolv/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions \
-    vendor/evervolv/prebuilt/common/bin/sysinit:system/bin/sysinit \
-    vendor/evervolv/prebuilt/common/xbin/htop:system/xbin/htop \
-    vendor/evervolv/prebuilt/common/xbin/irssi:system/xbin/irssi \
-    vendor/evervolv/prebuilt/common/xbin/powertop:system/xbin/powertop \
-    vendor/evervolv/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
+    vendor/savagedzen/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf \
+    vendor/savagedzen/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
+    vendor/savagedzen/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
+    vendor/savagedzen/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
+    vendor/savagedzen/prebuilt/common/etc/profile:system/etc/profile \
+    vendor/savagedzen/prebuilt/common/etc/init.local.rc:system/etc/init.local.rc \
+    vendor/savagedzen/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
+    vendor/savagedzen/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
+    vendor/savagedzen/prebuilt/common/etc/init.d/04modules:system/etc/init.d/04modules \
+    vendor/savagedzen/prebuilt/common/etc/init.d/20userinit:system/etc/init.d/20userinit \
+    vendor/savagedzen/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache \
+    vendor/savagedzen/prebuilt/common/bin/compcache:system/bin/compcache \
+    vendor/savagedzen/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions \
+    vendor/savagedzen/prebuilt/common/bin/sysinit:system/bin/sysinit \
+    vendor/savagedzen/prebuilt/common/xbin/htop:system/xbin/htop \
+    vendor/savagedzen/prebuilt/common/xbin/irssi:system/xbin/irssi \
+    vendor/savagedzen/prebuilt/common/xbin/powertop:system/xbin/powertop \
+    vendor/savagedzen/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
 
 
 
 #Temporarily use this prebuilt Superuser.apk
 PRODUCT_COPY_FILES += \
-    vendor/evervolv/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk
+    vendor/savagedzen/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \

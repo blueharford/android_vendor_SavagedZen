@@ -1,0 +1,30 @@
+Savaged-Zen(ROM)
+================
+
+ROM Development:
+------------------
+jsseidel1
+mwielgosz
+Nyght
+
+ROM Experts and Repo Setup
+----------------------------
+preludedrew
+cyanogen
+
+Hosting and Mirrors
+-------------------
+Gibby
+Nyght
+DrMacinyasha
+
+Kernel
+------
+jsseidel1
+luisrcastillo
+bbedward
+
+Code Snippets
+--------------
+Open Source Community
+

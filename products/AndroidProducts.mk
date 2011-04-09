@@ -5,20 +5,20 @@
 #    $(LOCAL_DIR)/evervolv_glacier.mk
 
 #Temporary work around... * cocide
-ifeq ($(TARGET_PRODUCT),evervolv_inc)
-  PRODUCT_MAKEFILES := $(LOCAL_DIR)/evervolv_inc.mk
-else ifeq ($(TARGET_PRODUCT),evervolv_supersonic)
-  PRODUCT_MAKEFILES := $(LOCAL_DIR)/evervolv_supersonic.mk
-else ifeq ($(TARGET_PRODUCT),evervolv_speedy)
-  PRODUCT_MAKEFILES := $(LOCAL_DIR)/evervolv_speedy.mk
-else ifeq ($(TARGET_PRODUCT),evervolv_vision)
-  PRODUCT_MAKEFILES := $(LOCAL_DIR)/evervolv_vision.mk
-else ifeq ($(TARGET_PRODUCT),evervolv_heroc)
-  PRODUCT_MAKEFILES := $(LOCAL_DIR)/evervolv_heroc.mk
-else ifeq ($(TARGET_PRODUCT),evervolv_glacier)
-  PRODUCT_MAKEFILES := $(LOCAL_DIR)/evervolv_glacier.mk
-else ifeq ($(TARGET_PRODUCT),evervolv_passion)
-  PRODUCT_MAKEFILES := $(LOCAL_DIR)/evervolv_passion.mk
-else ifeq ($(TARGET_PRODUCT),evervolv_harmony)
-  PRODUCT_MAKEFILES := $(LOCAL_DIR)/evervolv_harmony.mk
+ifeq ($(TARGET_PRODUCT),savagedzen_supersonic)
+  PRODUCT_MAKEFILES := $(LOCAL_DIR)/savagedzen_supersonic.mk
+#else ifeq ($(TARGET_PRODUCT),savagedzen_inc)
+#  PRODUCT_MAKEFILES := $(LOCAL_DIR)/savagedzen_inc.mk
+#else ifeq ($(TARGET_PRODUCT),savagedzen_speedy)
+#  PRODUCT_MAKEFILES := $(LOCAL_DIR)/savagedzen_speedy.mk
+#else ifeq ($(TARGET_PRODUCT),savagedzen_vision)
+#  PRODUCT_MAKEFILES := $(LOCAL_DIR)/savagedzen_vision.mk
+#else ifeq ($(TARGET_PRODUCT),savagedzen_heroc)
+#  PRODUCT_MAKEFILES := $(LOCAL_DIR)/savagedzen_heroc.mk
+#else ifeq ($(TARGET_PRODUCT),savagedzen_glacier)
+#  PRODUCT_MAKEFILES := $(LOCAL_DIR)/savagedzen_glacier.mk
+#else ifeq ($(TARGET_PRODUCT),savagedzen_passion)
+#  PRODUCT_MAKEFILES := $(LOCAL_DIR)/savagedzen_passion.mk
+#else ifeq ($(TARGET_PRODUCT),savagedzen_harmony)
+#  PRODUCT_MAKEFILES := $(LOCAL_DIR)/savagedzen_harmony.mk
 endif

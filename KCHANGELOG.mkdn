@@ -1,0 +1,119 @@
+Savaged-Zen(MOD)
+===============
+
+Visit http://github.com/SavagedZen for full changelogs and git access.
+
+Visit http://review.savaged-zen.org for our Gerrit instance.
+
+Follow http://twitter.com/szgit for commit-by-commit updates.
+
+Maintainers:
+------------
+* Supersonic: luisrcastillo, bbedward, jsseidel
+
+CHANGELOG
+---------
+###Here are all the goodies in our original beta:
+
+*Simple I/O Scheduler
+// *Deactivate Invalidated Pages patchset - Dropped in 1.0.0
+// *Preemptible MM patchset - Dropped in 1.0.0
+// *I/O Less Dirty Throttling patchset - Dropped in 1.0.0
+*CFS SCHED_AUTOGROUP
+*SIO/BFS
+*SLQB
+*HAVS
+*Ondemand tweaks
+*Awesome conservative tweaks
+*Smartass governor
+*Max OC to 1.19Ghz
+*Undervolted min 925
+
+###0.0.3:
+*ClassicRCU
+*Brand spanking new SavagedZen CPU Governor !!! Based off of the SMARTASS gov. Brings the smartass goodness plus a few more tweaks
+*Fixed issues mounting SD Card via USB on Froyo ROMs (CM6, MIUI, ETC)
+*New v7_coherent_user_range patch from Galaxy S. This will provide better performance when playing games on the evo with an emulator such as psx4droid
+
+###0.0.4:
+*Numerous tweaks to BFS (should smooth out scrolling issues for *some* people), tweaked dirty_ratio/dirty_background_ratio, and minor CFS tweaks to increase responsiveness
+*Adjusted Savaged-Zen gov to minimize wakeup issues
+*Reverted THP patchset
+*Reverted Classic RCU
+
+###0.0.5:
+*ext2/ext3 added
+*Misc. Fixes/Changes from CodeAurora
+*send havs messages to AVSDEBUG for an un-flooded dmesg
+*compiler optimizations from intersectRaven
+*a1026: enable diag ioctls (cyanogen)
+*reverted to older bcm4329 (-18) temporarily to see if it fixes sleep issue
+*128 mhz underclock
+*reverted cfs changes
+*BFS: Android-only: Allow non-privilledged tasks to bounce between SCHED_BATCH/NORMAL policies
+
+###0.0.7
+*Fixed Wifi Wake issue
+*Fixed GPIO Issues
+*Added Stochastic Fair Blue (SFB) network scheduler.
+*Added YeAH TCP congestion control
+*Added Wimax updates
+*various other updates
+
+###0.0.8:
+*latest TOASTCFH wimax sleep bug fix
+*various USB gadget fixes
+*CPU freq mem leak fix
+*update wifi driver to .23
+
+###0.0.9
+*brandons wifi fixes
+
+###0.1.0
+*Upgrade to 2.6.37.1
+*wimax updates from cm-kernel
+*mmc fixes
+*wifi fix
+
+###0.1.1
+*tweaked bluetooth for better sound
+*upgraded to 2.6.37.2
+*tweaked SZ Gov
+*fixed latency and wakeup issues.!!!!
+
+###0.1.2
+* tweaked SZ Gov (cosmetic change)
+
+###0.2.0
+* Updated to 2.6.37.4
+* Updates from CM kernel
+* Updated HAVS
+* eviollet's HAVS syfs interface ported to evo by Brandon
+* Lowered wifi voltage 
+
+###0.2.1
+* Added in HDMwIn support
+
+###0.2.2
+* Update BFQ to V2
+
+###1.0.0
+* Massively upgraded to 2.6.38.1 by Brandon
+* 2.6.38-ck1
+* Audio boost from tiamin
+* Some updates from CM and CodeAurora
+
+###1.0.1
+* 2.6.38.2
+* Fixed SBC
+* Lowered voltage min to 800mV (for more havs syfs flexibility)
+* Updated bfq
+
+###1.1.0
+* Added BATT_OPTIONS sysfs interface to allow runtime toggling of SBC (Brandon)
+* USB mass storage write speed increased
+* BFS v376
+* Starting voltage raised to 925mV for stability
+
+Known issues:
+-------------
