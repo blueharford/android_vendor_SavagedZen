@@ -1,5 +1,5 @@
 # Generic SavagedZen product
-ROM_NAME := SavagedZen(MOD)
+ROM_NAME := SavagedZen\(MOD\)
 PRODUCT_NAME := savagedzen
 PRODUCT_BRAND := savagedzen
 PRODUCT_DEVICE := generic
