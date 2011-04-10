@@ -16,11 +16,12 @@ PRODUCT_CODENAME := Evo4G
 
 BUILD_VERSION_MAIN := RC3
 
-BUILD_VERSION := $(BUILD_VERSION_MAIN)-Rendition-$(shell date +%m%d%Y)
+#BUILD_VERSION := $(BUILD_VERSION_MAIN)-$(PRODUCT_CODENAME)
+BUILD_VERSION := $(BUILD_VERSION_MAIN)-$(PRODUCT_CODENAME)-Rendition-($(shell date +%m%d%Y))
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.romversion=SavagedZen(MOD)-$(PRODUCT_CODENAME)-$(BUILD_VERSION) \
-    ro.modversion=SavagedZen(MOD)-$(PRODUCT_CODENAME)-$(BUILD_VERSION) \
+    ro.build.romversion=SavagedZen(MOD)-$(BUILD_VERSION) \
+    ro.modversion=SavagedZen(MOD)-$(BUILD_VERSION) \
 
 PRODUCT_MOTD :="\n\n\n--------------------MESSAGE---------------------\nThank you for choosing SavagedZen(MOD) for your Evo 4G\nPlease visit us at \www.Savaged-Zen.org \nFollow @SZGIT for the latest SavagedZen updates\nGet the latest rom at mirror.savaged-zen.net\n------------------------------------------------\n"
 
