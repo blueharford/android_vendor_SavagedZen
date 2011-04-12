@@ -1,4 +1,3 @@
-
 # Generic SavagedZen product
 ROM_NAME := SavagedZenMOD
 PRODUCT_NAME := savagedzen
@@ -49,7 +48,7 @@ PRODUCT_COPY_FILES += \
 include vendor/savagedzen/products/themes_common.mk
 
 # Theme packages
-include vendor/cyanogen/products/themes.mk
+include vendor/savagedzen/products/themes.mk
 
 # Copy over the BASH for VDD profiles to the device
 PRODUCT_COPY_FILES += \
